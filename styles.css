@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+}
+main{
+    height: 100vh;
+   background: url("Screenshot\ from\ 2024-09-07\ 00-06-49.png");
+    background-size: cover;
+
+}
+.gallery a{
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    text-shadow: 0 0 10px green,0 0 20px green,0 0 30px yellow;
+    box-shadow: 0 0 10px green;
+    padding: 0 8px;
+    /* border: red 1px solid; */
+}
+#d1{
+    position: absolute;
+    top: 40%;
+    font-size: 33px;
+    left: 90%;
+    font-weight: 900;
+}
+#d2{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    font-size: 33px;
+    font-weight: 900;
+
+}
+.bar{
+    height: 3vh;
+    width: 60vw;
+    /* border: red 1px solid; */
+    position: absolute;
+    left: 20%;
+    top: 90%;
+    background-color: rgba(37, 30, 30, 0.952);
+    border-radius: 13px;
+    display: flex;
+    padding-top: 2px;
+    justify-content: space-evenly;
+}
+.bar div{
+    height: 2vh;
+    border-radius: 50%;
+    width: 2vh;
+    /* border:green solid 1px; */
+    align-items: center;
+    background-color: rgba(121, 97, 97, 0.932);
+
+}
